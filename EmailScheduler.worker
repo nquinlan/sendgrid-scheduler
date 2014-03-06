@@ -1,0 +1,8 @@
+runtime "node"
+
+file "package.json"
+build "npm install"
+
+npm config set strict-ssl false; npm install --production
+
+exec "scheduler.js"

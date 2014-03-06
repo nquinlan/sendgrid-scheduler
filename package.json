@@ -1,0 +1,11 @@
+{
+  "name": "email-scheduler",
+  "version": "0.0.1",
+  "description": "Schedule emails with SendGrid",
+  "main": "scheduler.js",
+  "author": "Nick Quinlan",
+  "license": "MIT",
+  "dependencies": {
+    "sendgrid": "~1.0.2"
+  }
+}
