@@ -4,7 +4,7 @@ _A simple way to schedule email from SendGrid, using Iron.io_
 ## Usage
 To use, simply [queue a task](http://dev.iron.io/worker/#tasks) for your worker, with the task's payload set to any of the [JSON accepted by SendGrid's Node Library](https://github.com/sendgrid/sendgrid-nodejs#available-params) and `api_user` and `api_key`.
 
-### Usage Example
+### Example Payload
 ```json
 {
   "api_user" : "YOUR_SENDGRID_USERNAME",
