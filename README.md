@@ -22,7 +22,7 @@ To get this Worker running, do the following:
 1. Clone the repo: `git clone https://github.com/nquinlan/sendgrid-scheduler`
 2. Move into the repo: `cd sendgrid-scheduler`
 3. Place your `iron.json` file in the repo: _e.g._ `mv ~/Downloads/iron.json ./` (You can download your `iron.json` by clicking credentials then "Download iron.json" found in your project, while on the [Iron.io HUD](https://hud.iron.io/))
-4. Upload the worker: `iron_worker upload EmailScheduler` (This requires the `iron_worker` gem, you can get it with `gem install iron_worker`)
+4. Upload the worker: `iron_worker upload SendGridScheduler` (This requires the `iron_worker` gem, you can get it with `gem install iron_worker`)
 
 ## License
 This project is dual licensed MIT and Beerware. Pick the license that works best for you and your project.
