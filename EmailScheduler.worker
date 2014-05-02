@@ -1,8 +1,8 @@
 runtime "node"
 
 file "package.json"
-build "npm install"
-
-npm config set strict-ssl false; npm install --production
+stack "node-0.10"
+build "npm config set strict-ssl false; npm install"
 
 exec "scheduler.js"
+remote
