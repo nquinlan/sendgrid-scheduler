@@ -1,9 +1,8 @@
-params = JSON.parse(fs.readFileSync(process.argv[index + 1], 'utf8'));
-require("fs");
+var worker = require('node_helper');
 
-var sendgrid  = require('sendgrid')(params['api_user'], params['api_key']);
+var sendgrid  = require('sendgrid')(worker.params['api_user'], worker.params['api_key']);
 
-sendgrid.send(params, function (err, res) {
+sendgrid.send(worker.params, function (err, res) {
 	if(err) {
 		Throw err;
 	}
