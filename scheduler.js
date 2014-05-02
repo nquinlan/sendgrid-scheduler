@@ -4,6 +4,8 @@ var sendgrid  = require('sendgrid')(worker.params['api_user'], worker.params['ap
 
 sendgrid.send(worker.params, function (err, res) {
 	if(err) {
-		Throw err;
+		throw err;
+	}else{
+		console.log(res);
 	}
 });
