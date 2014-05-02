@@ -6,6 +6,6 @@
   "author": "Nick Quinlan",
   "license": "MIT",
   "dependencies": {
-    "sendgrid": "~1.0.2"
+    "sendgrid": "~1.0.3"
   }
 }
