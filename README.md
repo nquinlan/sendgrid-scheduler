@@ -16,6 +16,9 @@ To use, simply [queue a task](http://dev.iron.io/worker/#tasks) for your worker,
 }
 ```
 
+### Examples
+Examples for using this code can be found in the [examples branch](https://github.com/nquinlan/sendgrid-scheduler/tree/examples) of this repo. Further information on how and why to implement this can be found on [the SendGrid Blog](http://sendgrid.com/blog/schedule-email-sendgrid-iron-io/).
+
 ## Setup
 To get this Worker running, do the following:
 
