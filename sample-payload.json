@@ -1,0 +1,8 @@
+{
+  "api_user" : "YOUR_SENDGRID_USERNAME",
+  "api_key" :  "YOUR_SENDGRID_PASSWORD",
+  "to" : "nick@sendgrid.com",
+  "from" : "nick@sendgrid.com",
+  "subject" : "Look at this cool email!",
+  "text" : "I mean seriously, it was scheduled with Iron.io-- so cool!"
+}
